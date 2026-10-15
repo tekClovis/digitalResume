@@ -1,0 +1,13 @@
+{
+  "name": "digital-resume",
+  "version": "1.0.0",
+  "description": "Digital resume - HTML, CSS and TypeScript",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}

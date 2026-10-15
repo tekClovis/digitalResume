@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Your Name — Resume</title>
+        <link rel="stylesheet" href="style.css" />
+        <script defer src="dist/main.js"></script>
+    </head>
+    <body>
+        <header class="site-header">
+            <a class="brand" href="#profile">Your Name</a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-links">
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="profile" class="section profile">
+                <h1>Your Name</h1>
+                <p class="role">Software Engineering Student</p>
+                <p>
+                    One or two sentences about who you are, what you build and
+                    what kind of position you are looking for.
+                </p>
+            </section>
+
+            <section id="skills" class="section">
+                <h2>Skills</h2>
+                <ul id="skills-list" class="skills-grid">
+                    <li class="skill-item">C — intermediate</li>
+                    <li class="skill-item">TypeScript — intermediate</li>
+                    <li class="skill-item">HTML/CSS — beginner</li>
+                </ul>
+            </section>
+
+            <section id="experience" class="section">
+                <h2>Experience</h2>
+                <ul class="cards">
+                    <li class="card">
+                        <h3>Project or job title</h3>
+                        <p class="meta">Company or school — 2026</p>
+                        <p>What you did, with which tools, and the result.</p>
+                    </li>
+                    <li class="card">
+                        <h3>Another project</h3>
+                        <p class="meta">Context — 2025</p>
+                        <p>What you did, with which tools, and the result.</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="education" class="section">
+                <h2>Education</h2>
+                <ul class="cards">
+                    <li class="card">
+                        <h3>Epitech</h3>
+                        <p class="meta">Programme — 2026 to 2031</p>
+                        <p>Bootcamp C to TypeScript, then project-based curriculum.</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="contact" class="section">
+                <h2>Contact</h2>
+                <form id="contact-form" class="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required />
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required />
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>&copy; 2026 Your Name</p>
+        </footer>
+    </body>
+</html>
